@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black
+}
+
+form{
+    width: 245px;
+    height: 275px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form:hover{
+    background: rgb(46, 46, 46);
+    transition: 0.4s;
+}
+
+label{
+    font-weight: bold;
+    color: white;
+}
+
+#button{
+    width: 230px;
+    height: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+h6{
+    font-weight: bold;
+    color: white;
+}

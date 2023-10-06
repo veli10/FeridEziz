@@ -1,0 +1,19 @@
+.tab-pane.active{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.d-flex{
+    display: grid !important;
+    grid-template-columns: 2fr 8fr;
+}
+
+.nav-link{
+    border: 1px solid gray;
+    color: black;
+}
+
+.nav-link.active{
+    background: black !important;
+}

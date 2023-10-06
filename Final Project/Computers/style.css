@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+td img{
+    width: 70px;
+}
+
+.modal .modal-dialog{
+    max-width: 700px;
+}
+
+.modal .modal-body{
+    display: flex;
+    gap: 30px;
+}
+
+.modal form{
+    width: 50%;
+}
